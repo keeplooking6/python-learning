@@ -9,7 +9,7 @@ print("祝您玩得愉快")
 
 # 猜猜心里的数字
 import random
-num = random.randint(1,10)
+num = random.randint(1,11)
 i = 0
 while i<3:
     guess = int(input("请输入第一次猜想的数字："))
