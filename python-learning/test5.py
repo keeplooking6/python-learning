@@ -1,27 +1,27 @@
-# def add(x,y):
-#     """
-#
-#     :param x:第一个加数
-#     :param y: 第二个加数
-#     :return: 返回None
-#     """
-#     result = x + y
-#     print(f"{x}+{y}=",result)
-#
-# add(2,2)
+def add(x,y):
+    """
+
+    :param x:第一个加数
+    :param y: 第二个加数
+    :return: 返回None
+    """
+    result = x + y
+    print(f"{x}+{y}=",result)
+
+add(2,2)
 
 # 能访问x，但不合规矩，正确的是是在外部定义好x，然后访问，num也同样
-# for x in range(1,4):
-#     num = "ww"
-#     print(x,num)
+for x in range(1,4):
+    num = "ww"
+    print(x,num)
 # print(x)
 # print(num)
 
 # 局部变量
-# def say_hello():
-#     num = 1
-#     print("hello",num)
-# say_hello()
+def say_hello():
+    num = 1
+    print("hello",num)
+say_hello()
 money = 5000000
 print("请输入您的姓名：",end='')
 name = input()

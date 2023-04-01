@@ -1,23 +1,23 @@
 # 遍历输出字母
-# name = "wwwwxl"
-# for x in name:
-#     print(x)
-# print("------")
+name = "wwwwxl"
+for x in name:
+    print(x)
+print("------")
 # range,前闭后开
-# for x in range(4):
-#     print(x,end=''+" ")
-# print()
-# for x in range(3,10):
-#     print(x,end=''+" ")
-# print()
-# for x in range(3,10,2):
-#     print(x,end=''+" ")
-# print()
+for x in range(4):
+    print(x,end=''+" ")
+print()
+for x in range(3,10):
+    print(x,end=''+" ")
+print()
+for x in range(3,10,2):
+    print(x,end=''+" ")
+print()
 # 99乘法表
-# for i in range(1,10):
-#     for j in range(1,i+1):
-#         print(f"{j}*{i}=",i*j,end=''+" ")
-#     print()
+for i in range(1,10):
+    for j in range(1,i+1):
+        print(f"{j}*{i}=",i*j,end=''+" ")
+    print()
 
 # 发工资案例
 import random

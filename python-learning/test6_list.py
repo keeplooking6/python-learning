@@ -1,3 +1,9 @@
+# 定义空列表
+none_list = ()
+none_list2 = list()
+print(none_list)
+print(none_list2)
+
 list = [1,2,3]
 # print(list)
 
