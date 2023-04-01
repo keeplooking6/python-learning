@@ -4,7 +4,8 @@ none_tuple = tuple()
 none_tuple2 = ()
 print(none_tuple)
 print(none_tuple2)
-
+# 定义元组字面量
+# (1,2,"ss")
 tuple2 = (1,)
 tuple3 = tuple2
 print(tuple2)

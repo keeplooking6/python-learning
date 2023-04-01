@@ -3,6 +3,8 @@ none_list = ()
 none_list2 = list()
 print(none_list)
 print(none_list2)
+# 定义列表字面量
+# [1,2,"1"]
 
 list = [1,2,3]
 # print(list)
