@@ -1,4 +1,4 @@
-num = 11;
+num = 11
 # 字符串类型无法和其他类型拼接
 print("11",num,"www")
 str = "ww"

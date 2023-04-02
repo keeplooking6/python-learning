@@ -23,13 +23,13 @@ for i in range(1,10):
 import random
 money = 10000
 for member in range(1,21):
-    jiXiao = random.randint(1, 11)
+    jiXiao = random.randint(1, 10)
     if(jiXiao < 5):
-        print(f"第{member}号员工绩效太低，不发工资")
+        print(f"第{member}号员工绩效太低，绩效为：{jiXiao},不发工资")
         continue
     else:
-        print(f"给第{member}号员工发工资1000")
-        money -= 1000
+        print(f"给第{member}号员工发工资1000,绩效为：{jiXiao}")
+        # money -= 1000
         if money <= 0:
             print("工资发完了，下月再发")
             break
