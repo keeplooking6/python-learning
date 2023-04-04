@@ -4,7 +4,7 @@ str1 = " itheima and itheima "
 # 去掉首尾空格
 print(str1.strip())
 # 去掉首尾指定字符串
-str2 = "12itheima and itheima12"
+str2 = "12itheima and 12itheima12"
 print(str2.strip("12"))
 # 取出指定下标的元素
 print(str2[4])
