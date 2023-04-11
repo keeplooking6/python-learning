@@ -99,3 +99,10 @@ def func(data2):
 var_5: stu = func(data2)
 
 # 类型注解只做提示性作用，不会判断正误
+
+# 对形参的注解
+def add(x: int,y: int):
+    return x+y
+# 方法参数及返回值的注解
+def func(data:list)->list:
+    return data
