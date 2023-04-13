@@ -40,7 +40,7 @@ class JsonFileReader(Reader):
         f = open(self.path,'r',encoding="UTF=8")
         for line in f.readlines():
             data_dict = json.loads(line)
-            record = Record(data_dict["date"],data_dict["order_id"],data_dict["date"],data_dict["date"])
+            record = Record(data_dict["date"],data_dict["order_id"],data_dict["money"],data_dict["province"])
             record_list.append(record)
 
         f.close()
@@ -50,9 +50,9 @@ if __name__ == '__main__':
     text_read = TextFileReader("2011年1月销售数据.txt")
     list1 = text_read.read_file()
     for l in list1:
-        print(str(l))
+        print(l)
 
     # json_read = JsonFileReader("2011年2月销售数据JSON.txt")
     # list2 = json_read.read_file()
     # for l in list2:
-    #     print(str(l))
+    #     print(l)
