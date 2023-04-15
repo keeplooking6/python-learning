@@ -1,7 +1,7 @@
 # 2、设计一个抽象类，确定有哪些功能（定义文件读取的相关功能），并使用子类实现相关功能
 import json
 
-from data_define import Record
+from test24_data_processing.data_define import Record
 class Reader:
     def read_file(self) -> list[Record]:
         """读取文件的数据，读取到的每一条转换成Record数据类型，并封装到list列表中"""

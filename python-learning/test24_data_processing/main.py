@@ -1,4 +1,4 @@
-# 计算每一天的销售额
+# 计算这两个月每一天的销售额
 from pyecharts.globals import ThemeType
 
 from data_define import Record
