@@ -13,6 +13,7 @@ cursor = conn.cursor()
 
 # 创建数据库，并建表
 # cursor.execute("CREATE DATABASE py_sql")
+# cursor.execute("DROP TABLE if exists orders")
 conn.select_db("py_sql")
 # cursor.execute("CREATE TABLE orders("
 #                "order_date DATE,"
