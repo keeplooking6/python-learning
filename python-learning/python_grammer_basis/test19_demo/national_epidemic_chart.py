@@ -2,9 +2,9 @@
 import json
 from pyecharts.charts import Line
 from pyecharts.options import LabelOpts,TitleOpts
-American_file = open("美国.txt",'r',encoding="UTF-8")
-Janpanese_file = open("日本.txt",'r',encoding="UTF-8")
-India_file = open("印度.txt",'r',encoding="UTF-8")
+American_file = open("美国.txt", 'r', encoding="UTF-8")
+Janpanese_file = open("日本.txt", 'r', encoding="UTF-8")
+India_file = open("印度.txt", 'r', encoding="UTF-8")
 # 去头
 us_data = American_file.read().replace("jsonp_1629344292311_69436(", "")
 jp_data = Janpanese_file.read().replace("jsonp_1629350871167_29498(","")

@@ -37,7 +37,7 @@ j_data = json_data.read_file()
 
 cursor.execute("select * from orders")
 results: tuple = cursor.fetchall()
-f1 = open("fromDatabase.txt",'w',encoding="UTF-8")
+f1 = open("fromDatabase.txt", 'w', encoding="UTF-8")
 for r in results:
     print(r)
     print(r[0])

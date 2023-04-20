@@ -28,5 +28,5 @@ def append_to_file(file_name,data):
 
 #  测试一下
 if __name__ == '__main__':
-    append_to_file("hello.txt","wwww")
+    append_to_file("hello.txt", "wwww")
     print_file_info("hello.txt")
