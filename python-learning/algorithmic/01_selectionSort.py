@@ -1,4 +1,4 @@
-# 选择排序
+# 选择排序:每次选择剩下元素中最小/大的那一个
 # 从小到大
 def SelectionSort(a):
     n = len(a)
@@ -18,15 +18,19 @@ list = [8, 3, 1, 5, 7, 2]
 SelectionSort(list)
 
 print("------------")
+
+
 # 从大到小
 def SelectSort_bigToSmall(a):
     n = len(a)
-    for i in range(n-1):
+    for i in range(n - 1):
         max = i
-        for j in range(i+1,n):
-            if a[max]<a[j]:
+        for j in range(i + 1, n):
+            if a[max] < a[j]:
                 max = j
-        a[i],a[max] = a[max],a[i]
+        a[i], a[max] = a[max], a[i]
         print(a)
-list_big = [3,5,1,7,4,8]
+
+
+list_big = [3, 5, 1, 7, 4, 8]
 SelectSort_bigToSmall(list_big)
