@@ -2,9 +2,10 @@
 # 从小到大
 def SelectionSort(a):
     n = len(a)
+    # 外层：控制从第0个元素，一直遍历到倒数第二个元素
     for i in range(n - 1):
         min = i  # i为0，1，2，3，4 《=》[0,5)
-
+        #  内层：控制从第i+1个元素到最后一个元素
         for j in range(i + 1, n):  # j为[1,6)
             if a[j] < a[min]:
                 min = j
