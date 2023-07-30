@@ -42,10 +42,13 @@
 # # 父类的非私有属性、方法都能被继承到
 # new_phone = Phone2022()
 # new_phone.call_by_5g()
+# print("-----")
 # print(new_phone.NFC)
+# print("-----")
 # print(new_phone.IMEI)
+# print("-----")
 # print(new_phone.call_by_5g())
-#
+# print("-----")
 #
 # class RemoteControl:
 #     IMEI = 1000
@@ -56,13 +59,13 @@
 # class MyPhone(Phone,RemoteControl):
 #     face_id = True
 # my_new_phone = MyPhone()
-# # 如果继承的两个类有相同变量，则起作用的是左侧的类变量
+# # 如果继承的两个类有相同变量，则起作用的是左侧的类变量(即phone的类变量）
 # print(my_new_phone.IMEI)
 #
 # # pass关键字，保证函数或类定义的完整性，表示无内容或空
 # class Nouse:
 #     pass
-#
+
 
 # 注释中进行类型注解
 import json

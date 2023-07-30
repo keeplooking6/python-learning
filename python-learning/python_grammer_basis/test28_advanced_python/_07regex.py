@@ -2,8 +2,8 @@ import re
 str = "python and exe,python"
 
 # # match
-# result = re.match("python",str)
-# print(result)
+result = re.match("python",str)
+print(result)
 # # 找到匹配的字符串下标为？
 # print(result.span())
 # # 匹配的值为

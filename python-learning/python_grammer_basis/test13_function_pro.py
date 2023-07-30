@@ -17,12 +17,12 @@ func2("ww",22)
 func2("ww",22,"男")
 # 不定长参数
 #   关键字传递
-print("不定长参数-关键字传递：")
+print("不定长参数-关键字传递：**args-任意数量的关键字参数")
 def func3(**args):
     print(args)
 func3(name="ww",age=22)
 #   位置传递
-print("不定长参数-位置传递：")
+print("不定长参数-位置传递：*args-任意数量的位置参数")
 def func3(*args):
     print(args)
 func3("ww",22)

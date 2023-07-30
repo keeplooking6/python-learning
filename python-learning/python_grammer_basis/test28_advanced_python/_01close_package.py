@@ -1,11 +1,11 @@
-# 闭包
+# # 闭包
 # def outter(logo):
 #     def inner(msg):
 #         print(f"<{logo}>--{msg}--<{logo}>")
 #     return inner
-# # 调用outter函数，返回inner对象
+# # 调用outter函数，返回inner对象(return inner),即下面的fn返回的是inner函数，
 # fn = outter("hm")
-# # inner对象输入参数，输出内部信息
+# # 然后这里是inner对象输入参数，输出内部信息
 # fn("你想学什么")
 
 # atm例子
