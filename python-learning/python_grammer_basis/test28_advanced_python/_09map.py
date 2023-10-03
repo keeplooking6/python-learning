@@ -15,3 +15,6 @@ for i in range(5):
     value = map(lambda x:x(i), funcs)
     print(list(value))
 
+with open('file.txt') as f:
+    contents = f.read()
+

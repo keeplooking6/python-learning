@@ -41,3 +41,26 @@ print(len(gather5))
 # 只能使用for循环变脸，因为无序，无下标
 for x in gather5:
     print(x)
+
+print("-------")
+# 集合的构造器永华
+set2 = set(range(1, 10))
+set3 = set((1,2,3))
+set1 = {}
+print("set1",set1)
+print("set2",set2)
+print("set3",set3)
+# set1.add(4)
+# set1.add(5)
+# print("set1",set1)
+
+set2.update([11, 12])
+print("set2",set2)
+# 删除元素5
+set2.discard(5)
+print("set2",set2)
+
+if 4 in set2:
+    set2.remove(4)
+print(set1, set2)
+

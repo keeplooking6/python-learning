@@ -26,3 +26,4 @@ print("num %= 10:",num) #num %= 10 = 2
 num **= 4
 print("num **= 2:",num) #num **= 4 = 16
 
+print("多少钱",29)

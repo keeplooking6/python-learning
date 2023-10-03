@@ -1,0 +1,14 @@
+test30:可变参数
+test31:排序操作
+test32:生成式与生成器
+test33:不同元素的用法结果比较
+test34:跑马灯
+test35:获取文件后缀名
+test36:双色球：红球1-33中任选6个，蓝球1-16中任选1个
+test37:井字棋
+test38:装饰器@property,@age.setter
+test39:奥特曼打小怪兽（学习封装，继承，类，逻辑关系，__slot__）
+test40:扑克牌发牌
+test41:工资结算
+test42:python GUI-Tkinter
+test43:游戏开发-Pygame

@@ -3,6 +3,9 @@
 # 定义空字典
 none_dict = dict()
 none_dict2 = {}
+# 字典的构造器用法
+dict = dict(a=1,b=2,c=3)
+print(dict)
 
 my_dict = {"wxl":100,"ww":22,"gg":44}
 # 字典的嵌套,字典类型不能作key

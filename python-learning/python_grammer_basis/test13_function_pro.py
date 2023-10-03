@@ -44,3 +44,8 @@ def test_func(compute):
     result = compute(1,2)
     print(result)
 test_func(lambda x,y:x+y) # 代表compute这个函数由lambda来写
+
+def add(x,y):
+    z = x+y
+    return x,y,z
+print(add(11,2))

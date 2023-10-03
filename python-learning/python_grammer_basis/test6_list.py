@@ -37,11 +37,15 @@ print(list)
 list.insert(1,222)
 print(list)
 # 在末尾加入元素
+print("在末尾加入元素")
 list.append(444)
 list.append(444)
+print("在末尾加入元素")
+
 print(list)
 list.append([5,6,7])
 print(list)
+print("取出数组元素加入列表末尾")
 # 末尾直接加入，而不是以一个数组作为一个元素的形式
 # extend（容器） append（元素），即extend是将数据容器内的元素一个个取出再加入到列表中
 list.extend([5,6,7])
