@@ -12,3 +12,7 @@ test40:扑克牌发牌
 test41:工资结算
 test42:python GUI-Tkinter
 test43:游戏开发-Pygame
+test45:多进程
+test46:多线程
+test47:多线程存钱（错误做法）
+test48:多线程存钱（正确做法）
